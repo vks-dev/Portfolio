@@ -1,0 +1,27 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  background-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: gray;
+  width: 2%;
+}
+
+img {
+  border-radius: 45%;
+}
+
+p {
+  font-family: "Arial";
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
