@@ -1,0 +1,248 @@
+* {
+    font-family: Poppins;
+    align-items: center;
+}
+
+#HeroSection {
+    height: 100%;
+    color: #fff;
+    background-color: #000000;
+}
+
+#HeroSection #notice{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 236, 130);
+    color: #000000;
+    margin-bottom: 0px;
+    /* padding-bottom: 2px; */
+}
+
+
+#HeroSection #notice-close{
+    background-color: rgb(255, 236, 130);
+    display: inline;
+    border: none;
+    position: absolute;
+    left: 98%; 
+}
+
+#HeroSection .potrait{
+    border-radius: 50%;
+    height: 120px;
+    width: 125px;
+    margin-top: 5%;
+}
+
+#HeroSection h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10%;
+    font-family: Sacramento;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 2.5%;
+}
+
+#HeroSection #emoji{
+    font-size: 2.5rem;
+}
+
+#HeroSection h1:hover{
+    color: rgb(255, 236, 130);
+    transition: 0.5s ease-in;
+}
+
+
+#HeroSection .autotyperText {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+#HeroSection .autotyperText:hover{
+    color: rgb(255, 236, 130);
+    transition: 0.5s ease-in;
+}
+
+#typewriter-effect{
+    border-right: 2px solid black;
+}
+
+#HeroSection #description{
+    font-size: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#HeroSection #description:hover{
+    color: rgb(255, 236, 130);
+    transition: 0.5s ease-in;
+}
+  
+
+#HeroSection .navbar1 {
+    font-weight: bold;
+    position: sticky;
+    right: 100%;
+    padding: 0 5%;
+    /* box-shadow: 50px; */
+}
+
+#HeroSection .nav-item{
+    padding: 1% 3%;
+}
+
+#HeroSection .nav-link{
+    color: #ffffff;
+}
+
+
+#HeroSection .nav-link:hover {
+    /* margin: 0% 1%; */
+    color: rgb(255, 236, 130);
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-light:hover {
+    background-color: rgb(255, 236, 130);
+    color: #000000;
+    transition: 0.5s ease-in;
+}
+
+
+hr{
+    background-color: #000000;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #fff;
+    width: 2%;
+    position: absolute;
+    left: 50%;
+}
+
+
+#aboutProjects {
+    height: 100%;
+    padding: 5%;
+    color: #fff;
+    background-color: #000000;
+}
+
+h2:hover {
+    color:rgb(255, 236, 130);
+    transition: 0.5s ease-in;
+}
+
+#aboutProjects .col {
+    padding: 2%;
+}
+
+#aboutProjects .row{
+    margin-left: 70px;
+}
+
+#aboutProjects .card {
+    background-color: #000;
+    
+    width: 18rem; 
+    padding-top: 2%; 
+    text-align: justify;
+}
+
+#aboutProjects .card:hover {
+    transition: 0.5s ease-in;
+    border-color: rgb(255, 236, 130);
+    color: rgb(255, 236, 130);
+}
+
+
+#aboutProjects .Project-img {
+    height: 50%;
+    width: 50%;
+    align-self: center;
+}
+
+#aboutMySkills {
+    height: 90%;
+    padding: 5% 2%;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+#aboutMySkills .Skill-img{
+    height: 90px;
+    width: 100px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#aboutMySkills h4 {
+    padding-top: 5%;
+} 
+
+#aboutMySkills h4:hover{
+    color: rgb(255, 236, 130);
+    transition: 0.5s ease-in;
+}
+
+#Contact-me {
+    height: 80%;
+    padding: 5%;
+    height: fit-content;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#Contact-me .input-card{
+    border: 1px solid;
+    display: inline-block;
+    margin: 2%;
+    padding: 4% 5%;
+    border-radius: 10px;
+    background-color: #000000;    
+}
+
+#Contact-me .input-card:hover{
+    border-color: rgb(255, 236, 130);
+    transition: 0.2s ease-in;
+}
+
+#Contact-me .input{
+    border-radius: 8px;
+    margin: 3%;
+}
+
+#Contact-me textarea{
+    border: 2px solid;
+}
+
+.footer-hr{
+    background-color: #fff;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: gray;
+    width: 2%;
+    position: absolute;
+    left: 50%;
+}
+
+footer{
+    height: 10%;
+    align-items: center;
+    padding-top: 3%;
+}
+
+footer .icons{
+    margin-left: 1%;
+}
+
+
+
+@media (max-width: 1000px) {
+
+}
