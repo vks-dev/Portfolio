@@ -116,7 +116,7 @@
               <p class="card-text">This Todo Application is created using HTML, CSS &amp; JavaScript that 
                 stores data locally on the device.
               </p>
-              <a href="#" class="btn btn-outline-light">Go to Code</a>
+              <a href="https://github.com/vks-dev/ToDo-Application" class="btn btn-outline-light">Go to Code</a>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
               <p class="card-text">This Weather Application is created in python &amp; is terminal application 
                 that shows weather and other details of a city.
               </p>
-              <a href="#" class="btn btn-outline-light">Go to Code</a>
+              <a href="https://github.com/vks-dev/Weather-Application" class="btn btn-outline-light">Go to Code</a>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@
               <h5 class="card-title"><b>Youtube Downloader</b></h5>
               <p class="card-text">This Youtube Downloader is created in python that selects &amp; downloads the best quality of a 
                 video from youtube.</p>
-              <a href="#" class="btn btn-outline-light">Go to Code</a>
+              <a href="https://github.com/vks-dev/Youtube_Video_Downloader" class="btn btn-outline-light">Go to Code</a>
             </div>
           </div>
         </div>
@@ -219,8 +219,6 @@
         </form>
 
       </div>
-
-
     </center>
 
   </section>
@@ -248,42 +246,8 @@
 
 
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendMsg() {
-      var name = document.getElementById("userName").value;
-      var email = document.getElementById("userEmail").value;
-      var msg = document.getElementById("userMsg").value;
-      Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "venkatakrishnasai.activities@gmail.com",
-        Password: "36F4DA50D2EF90672D58ADE67F86718CBC3C",
-        To: "venkat.in2002@gmail.com",
-        From: "venkatakrishnasai.activities@gmail.com",
-        Subject: "You got feedback from " + name,
-        Body: "Details of sender <br>" +
-          "Name :" + name + "<br>" +
-          "Email :" + email + "<br>" +
-          "Feedback :<br>" + msg
-      }).then(
-        message => alert("Message Sent")
-      );
-    }
-  </script>
-
   <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed("#auto-typer", {
-      strings: ["Tech Enthusiast.", "Web Developer."],
-      typeSpeed: 200,
-      backSpeed: 200,
-      loop: true
-    });
-
-
-    function noticeToggle() {
-      document.querySelector("#notice").style.display = "none";
-    }
-  </script>
+  <script src="./script.js"></script>
 
 
 </body>

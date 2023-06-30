@@ -3,6 +3,7 @@
     align-items: center;
 }
 
+
 #HeroSection {
     height: 100%;
     color: #fff;
@@ -82,12 +83,15 @@
   
 
 #HeroSection .navbar1 {
+    width: 100%;
     font-weight: bold;
-    position: sticky;
-    right: 100%;
+    position: fixed;
+    /* right: 100%; */
     padding: 0 5%;
+    z-index: 1;
     /* box-shadow: 50px; */
 }
+
 
 #HeroSection .nav-item{
     padding: 1% 3%;
@@ -242,7 +246,25 @@ footer .icons{
 }
 
 
+@media (max-width: 987px) {
+    .navbar-toggler {
+        background-color: rgb(255, 236, 130);
+    }
 
-@media (max-width: 1000px) {
+    #HeroSection h1{
+        font-size: 3rem;
+    }    
 
+    #HeroSection h1:hover{
+        color: rgb(255, 236, 130);
+        transition: 0.5s ease-in;
+    }
+
+    #aboutProjects{
+        height: fit-content;
+    }
+
+    #aboutMySkills {
+        height: fit-content;
+    }
 }
